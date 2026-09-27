@@ -1,6 +1,6 @@
 # EduSelect: Android Learning Roadmap
 
-*Plan written 2026-09-22. Progress: Phase 0 done, Phase 1 in progress (navigation done, ViewModel pending).*
+*Plan written 2026-09-22. Progress: Phases 0 and 1 done, Phase 2 next.*
 
 ## What EduSelect Is
 
