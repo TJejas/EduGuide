@@ -135,7 +135,7 @@ EduSelect is a self-administered Android quiz app that measures a Class 11/12 st
 
 **Done when:** all 10 pilot runs complete without a crash and produce recommendations your lead considers reasonable.
 
-## Open Questions Worth Confirming
+## Open Questions 
 
 - [ ] Exact interest % formula. This roadmap assumes % = domain engagement ÷ total engagement. Confirm this is what "checked based on more inclination" means, versus something rating-based.
 - [ ] Threshold for triggering the Defence follow-up: strictly the top domain, or something softer (within some % of the top)?
