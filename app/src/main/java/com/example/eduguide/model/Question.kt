@@ -1,4 +1,4 @@
-package com.example.eduselect.model
+package com.example.eduguide.model
 
 data class Question(
     val id: Int,

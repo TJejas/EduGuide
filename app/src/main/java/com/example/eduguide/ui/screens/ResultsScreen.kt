@@ -1,4 +1,4 @@
-package com.example.eduselect.ui.screens
+package com.example.eduguide.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -8,8 +8,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun WelcomeScreen(
-    onStartClick: () -> Unit,
+fun ResultsScreen(
+    onRestartClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     Column(
@@ -17,10 +17,10 @@ fun WelcomeScreen(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text("Welcome to EduSelect", style = MaterialTheme.typography.headlineMedium)
+        Text("Your Results", style = MaterialTheme.typography.headlineMedium)
         Spacer(Modifier.height(16.dp))
-        Button(onClick = onStartClick) {
-            Text("Start Quiz")
+        Button(onClick = onRestartClick) {
+            Text("Start Over")
         }
     }
 }

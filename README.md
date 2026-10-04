@@ -1,4 +1,4 @@
-# EduSelect
+# EduGuide
 
 An on-device Android quiz app that measures a Class 11/12 student's interest across four career domains (Filmmaking, Hotel Management, Defence, Mass Communication), then combines it with the student's background to suggest realistic pathways.
 
@@ -19,7 +19,7 @@ The full phase-by-phase plan is in [docs/ROADMAP.md](docs/ROADMAP.md).
 ## Project structure
 
 ```
-app/src/main/java/com/example/eduselect/
+app/src/main/java/com/example/eduguide/
 ├── MainActivity.kt      Hosts the app inside the theme and Scaffold
 ├── AppNavHost.kt        Navigation map: route → screen, button → next route
 ├── Screen.kt            Sealed class listing every route

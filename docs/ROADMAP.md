@@ -1,10 +1,10 @@
-# EduSelect: Android Learning Roadmap
+# EduGuide: Android Learning Roadmap
 
 *Plan written 2026-09-22. Progress: Phases 0 to 2 done (Phase 2 with placeholder question text), Phase 3 next.*
 
-## What EduSelect Is
+## What EduGuide Is
 
-EduSelect is a self-administered Android quiz app that measures a Class 11/12 student's genuine interest across four career domains (Filmmaking, Hotel Management, Defence, and Mass Communication), then combines that interest score with the student's background (caste category, parents' profession, family financial status) to recommend realistic pathways, the way "high Defence interest + low income" points toward NDA because it's free. The pilot cohort is 10 South Indian volunteers spanning different religions and professions, hypothetically unable to afford much, used to validate that the quiz and recommendations hold up before a wider rollout.
+EduGuide is a self-administered Android quiz app that measures a Class 11/12 student's genuine interest across four career domains (Filmmaking, Hotel Management, Defence, and Mass Communication), then combines that interest score with the student's background (caste category, parents' profession, family financial status) to recommend realistic pathways, the way "high Defence interest + low income" points toward NDA because it's free. The pilot cohort is 10 South Indian volunteers spanning different religions and professions, hypothetically unable to afford much, used to validate that the quiz and recommendations hold up before a wider rollout.
 
 ## Confirmed Requirements
 
@@ -29,7 +29,7 @@ EduSelect is a self-administered Android quiz app that measures a Class 11/12 st
 
 ### Phase 0: Environment & Fundamentals
 
-**Goal:** get comfortable with Kotlin and Compose basics before touching EduSelect's actual logic.
+**Goal:** get comfortable with Kotlin and Compose basics before touching EduGuide's actual logic.
 
 1. Install Android Studio (latest stable), create an empty Compose project, run it on an emulator or your phone.
 2. Learn the Kotlin you'll use immediately: `data class`, `enum class`, `sealed class`, `when`, nullable types (`?`), lambdas, `List`/`Map` operations (`filter`, `map`, `shuffled`).
@@ -40,9 +40,9 @@ EduSelect is a self-administered Android quiz app that measures a Class 11/12 st
 
 ### Phase 1: Project Skeleton & Navigation
 
-**Goal:** scaffold the real EduSelect app shell.
+**Goal:** scaffold the real EduGuide app shell.
 
-1. Create the EduSelect project (new package name, e.g. `com.yourname.eduselect`).
+1. Create the EduGuide project (new package name, e.g. `com.yourname.eduguide`).
 2. Set up Navigation Compose with placeholder screens: `WelcomeScreen`, `QuizScreen`, `DefenceFollowUpScreen`, `BackgroundInfoScreen`, `ResultsScreen`.
 3. Wire simple navigation between them (Welcome → Quiz → Results) with dummy "Next" buttons, no real logic yet.
 4. Set up a basic MVVM structure: one `QuizViewModel` the screens can read from, even if it's empty for now.

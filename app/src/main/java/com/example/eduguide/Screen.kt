@@ -1,4 +1,4 @@
-package com.example.eduselect
+package com.example.eduguide
 sealed class Screen(val route: String) {
     data object Welcome : Screen("welcome")
     data object Quiz : Screen("quiz")

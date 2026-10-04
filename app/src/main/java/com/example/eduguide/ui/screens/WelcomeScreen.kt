@@ -1,4 +1,4 @@
-package com.example.eduselect.ui.screens
+package com.example.eduguide.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -8,8 +8,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun BackgroundInfoScreen(
-    onSubmitClick: () -> Unit,
+fun WelcomeScreen(
+    onStartClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     Column(
@@ -17,10 +17,10 @@ fun BackgroundInfoScreen(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text("About You", style = MaterialTheme.typography.headlineMedium)
+        Text("Welcome to EduGuide", style = MaterialTheme.typography.headlineMedium)
         Spacer(Modifier.height(16.dp))
-        Button(onClick = onSubmitClick) {
-            Text("See Results")
+        Button(onClick = onStartClick) {
+            Text("Start Quiz")
         }
     }
 }

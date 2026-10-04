@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "EduSelect"
+rootProject.name = "EduGuide"
 include(":app")

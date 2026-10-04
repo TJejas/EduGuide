@@ -1,4 +1,4 @@
-package com.example.eduselect.ui.theme
+package com.example.eduguide.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

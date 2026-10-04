@@ -1,4 +1,4 @@
-package com.example.eduselect
+package com.example.eduguide
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -6,11 +6,11 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.eduselect.ui.screens.BackgroundInfoScreen
-import com.example.eduselect.ui.screens.DefenceFollowUpScreen
-import com.example.eduselect.ui.screens.QuizScreen
-import com.example.eduselect.ui.screens.ResultsScreen
-import com.example.eduselect.ui.screens.WelcomeScreen
+import com.example.eduguide.ui.screens.BackgroundInfoScreen
+import com.example.eduguide.ui.screens.DefenceFollowUpScreen
+import com.example.eduguide.ui.screens.QuizScreen
+import com.example.eduguide.ui.screens.ResultsScreen
+import com.example.eduguide.ui.screens.WelcomeScreen
 
 @Composable
 fun AppNavHost(modifier: Modifier = Modifier) {

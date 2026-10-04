@@ -1,4 +1,4 @@
-package com.example.eduselect.model
+package com.example.eduguide.model
 
 // Draft question text, written by us. Not yet reviewed by the lead.
 object QuestionBank {

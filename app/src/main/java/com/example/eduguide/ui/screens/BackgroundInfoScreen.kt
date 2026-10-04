@@ -1,4 +1,4 @@
-package com.example.eduselect.ui.screens
+package com.example.eduguide.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -8,8 +8,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun DefenceFollowUpScreen(
-    onContinueClick: () -> Unit,
+fun BackgroundInfoScreen(
+    onSubmitClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     Column(
@@ -17,10 +17,10 @@ fun DefenceFollowUpScreen(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text("Defence Follow-up", style = MaterialTheme.typography.headlineMedium)
+        Text("About You", style = MaterialTheme.typography.headlineMedium)
         Spacer(Modifier.height(16.dp))
-        Button(onClick = onContinueClick) {
-            Text("Continue")
+        Button(onClick = onSubmitClick) {
+            Text("See Results")
         }
     }
 }

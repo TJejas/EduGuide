@@ -1,7 +1,7 @@
-package com.example.eduselect
+package com.example.eduguide
 
-import com.example.eduselect.model.Domain
-import com.example.eduselect.model.QuestionBank
+import com.example.eduguide.model.Domain
+import com.example.eduguide.model.QuestionBank
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

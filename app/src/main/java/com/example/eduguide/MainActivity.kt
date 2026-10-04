@@ -1,4 +1,4 @@
-package com.example.eduselect
+package com.example.eduguide
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,14 +8,14 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.example.eduselect.ui.theme.EduSelectTheme
+import com.example.eduguide.ui.theme.EduGuideTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            EduSelectTheme {
+            EduGuideTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     AppNavHost(modifier = Modifier.padding(innerPadding))
                 }

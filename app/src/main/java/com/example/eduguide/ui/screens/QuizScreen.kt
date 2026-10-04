@@ -1,4 +1,4 @@
-package com.example.eduselect.ui.screens
+package com.example.eduguide.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -6,7 +6,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.example.eduselect.model.Question
+import com.example.eduguide.model.Question
 
 @Composable
 fun QuizScreen(

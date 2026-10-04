@@ -1,4 +1,4 @@
-package com.example.eduselect
+package com.example.eduguide
 
 import org.junit.Test
 

@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.eduselect"
+    namespace = "com.example.eduguide"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.eduselect"
+        applicationId = "com.example.eduguide"
         minSdk = 24
         targetSdk = 37
         versionCode = 1

@@ -1,4 +1,4 @@
-package com.example.eduselect.model
+package com.example.eduguide.model
 
 enum class Domain {
     FILMMAKING,

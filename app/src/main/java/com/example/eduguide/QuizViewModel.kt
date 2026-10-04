@@ -1,11 +1,11 @@
-package com.example.eduselect
+package com.example.eduguide
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import com.example.eduselect.model.Question
-import com.example.eduselect.model.QuestionBank
+import com.example.eduguide.model.Question
+import com.example.eduguide.model.QuestionBank
 
 class QuizViewModel : ViewModel() {
 
