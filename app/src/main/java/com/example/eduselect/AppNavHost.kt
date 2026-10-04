@@ -27,8 +27,13 @@ fun AppNavHost(modifier: Modifier = Modifier) {
             WelcomeScreen(onStartClick = { navController.navigate(Screen.Quiz.route) })
         }
         composable(Screen.Quiz.route) {
-            // Phase 7: only go to DefenceFollowUp when Defence scores high
-            QuizScreen(onFinishClick = { navController.navigate(Screen.DefenceFollowUp.route) })
+            QuizScreen(
+                question = quizViewModel.currentQuestion,
+                onEngageClick = { quizViewModel.onEngage() },
+                onSkipClick = { quizViewModel.onSkip() },
+                // Phase 7: only go to DefenceFollowUp when Defence scores high
+                onFinishClick = { navController.navigate(Screen.DefenceFollowUp.route) }
+            )
         }
         composable(Screen.DefenceFollowUp.route) {
             DefenceFollowUpScreen(onContinueClick = { navController.navigate(Screen.BackgroundInfo.route) })
