@@ -1,6 +1,6 @@
 # EduGuide: Android Learning Roadmap
 
-*Plan written 2026-09-22. Progress: Phases 0 to 2 done (Phase 2 with placeholder question text), Phase 3 next.*
+*Plan written 2026-09-22. Progress: Phases 0 to 3 done (question text is a draft pending lead review), Phase 4 next.*
 
 ## What EduGuide Is
 
