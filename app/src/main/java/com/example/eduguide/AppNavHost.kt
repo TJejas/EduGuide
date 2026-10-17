@@ -29,8 +29,11 @@ fun AppNavHost(modifier: Modifier = Modifier) {
         composable(Screen.Quiz.route) {
             QuizScreen(
                 question = quizViewModel.currentQuestion,
+                questionNumber = quizViewModel.currentIndex + 1,
+                totalQuestions = quizViewModel.totalQuestions,
                 onEngageClick = { quizViewModel.onEngage() },
                 onSkipClick = { quizViewModel.onSkip() },
+                onSkipAllClick = { quizViewModel.onSkipAll() },
                 // Phase 7: only go to DefenceFollowUp when Defence scores high
                 onFinishClick = { navController.navigate(Screen.DefenceFollowUp.route) }
             )
@@ -42,11 +45,15 @@ fun AppNavHost(modifier: Modifier = Modifier) {
             BackgroundInfoScreen(onSubmitClick = { navController.navigate(Screen.Results.route) })
         }
         composable(Screen.Results.route) {
-            ResultsScreen(onRestartClick = {
-                navController.navigate(Screen.Welcome.route) {
-                    popUpTo(Screen.Welcome.route) { inclusive = true }
+            ResultsScreen(
+                engagementCounts = quizViewModel.engagementCounts,
+                onRestartClick = {
+                    quizViewModel.restart()
+                    navController.navigate(Screen.Welcome.route) {
+                        popUpTo(Screen.Welcome.route) { inclusive = true }
+                    }
                 }
-            })
+            )
         }
     }
 }
